@@ -11,7 +11,7 @@ services:
       DB_PORT: "6432"
       DB_USER: "avito"
       DB_NAME: "matrix"
-      COST_SERVER: "http://localhost:5001"
+      COST_SERVER: "http://10.2.0.10:5001"
     build:
         context: ./backpurplehack
         dockerfile: Dockerfile
